@@ -463,7 +463,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 1140; } }
 
 .container-fluid {
   width: 100%;
@@ -8499,7 +8499,7 @@ h1, h2, h3, h4, h5,
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
-  color: #3e64ff;
+  color: #3282b8;
   font-size: 30px; }
 
 @-webkit-keyframes wheel-up-down {
