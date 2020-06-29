@@ -49,6 +49,22 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+.tech-list li{
+  list-style: none;
+  margin: 0 10px 0 0;
+      margin-top: 0px;
+  display: inline-block;
+  }
+  .tech-list li a {
+    
+    display: block;
+    float: left;
+    
+    position: relative; }
+  .tech-list li a:hover {
+  
+    color:white }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -8764,7 +8780,9 @@ h1, h2, h3, h4, h5,
 
 .services-1 {
   margin-bottom: 40px;
-  padding: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
   background: #1b262c;
   width: 100%; }
   .services-1 .icon-1 {
@@ -8788,7 +8806,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: 3px;
     text-transform: uppercase;
     position: relative;
-    color: #3282b8; }
+    color: white; }
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
@@ -8818,10 +8836,8 @@ h1, h2, h3, h4, h5,
     color: #bbe1fa; }
     .services-1:hover .icon i {
       color: #fff; }
-    .services-1:hover h3 {
-      color: white ; }
-      .services-1:hover h3:after {
-        background: #000000; }
+    
+      
 
 .progress-wrap {
   width: 100%;
