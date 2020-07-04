@@ -9412,6 +9412,14 @@ textarea.form-control {
 .contact-section .contact-info p a {
   color: #1a1a1a; }
 
+.flaticon-global:before{
+  font-size: 2.5em;
+}
+
+.flaticon-github-image:before{
+  font-size: 2.5em;
+}
+
 .contact-section .box {
   width: 100%;
   display: block;

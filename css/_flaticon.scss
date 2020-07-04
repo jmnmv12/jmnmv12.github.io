@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 22/01/2020 23:30
+    Creation date: 04/07/2020 15:58
     */
 
     @font-face {
@@ -38,5 +38,7 @@
     }
 
     .flaticon-github-image:before { content: "\f100"; }
+.flaticon-global:before { content: "\f101"; }
     
     $font-Flaticon-github-image: "\f100";
+    $font-Flaticon-global: "\f101";
