@@ -49,6 +49,22 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+.tech-list li{
+  list-style: none;
+  margin: 0 10px 0 0;
+      margin-top: 0px;
+  display: inline-block;
+  }
+  .tech-list li a {
+    
+    display: block;
+    float: left;
+    
+    position: relative; }
+  .tech-list li a:hover {
+  
+    color:white }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -8764,8 +8780,10 @@ h1, h2, h3, h4, h5,
 
 .services-1 {
   margin-bottom: 40px;
-  padding: 2em;
-  background: rgba(255, 255, 255, 0.1);
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
+  background: #1b262c;
   width: 100%; }
   .services-1 .icon-1 {
     float:right;
@@ -8788,7 +8806,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: 3px;
     text-transform: uppercase;
     position: relative;
-    color: #000000; }
+    color: white; }
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
@@ -8812,16 +8830,14 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     color:#999 !important; }
   .services-1 .desc span :hover{
-    color:black;
+    color:white;
   }
   .services-1 .desc p {
-    color: rgba(0, 0, 0, 0.7); }
+    color: #bbe1fa; }
     .services-1:hover .icon i {
       color: #fff; }
-    .services-1:hover h3 {
-      color: #000000; }
-      .services-1:hover h3:after {
-        background: #000000; }
+    
+      
 
 .progress-wrap {
   width: 100%;
@@ -9395,6 +9411,14 @@ textarea.form-control {
 
 .contact-section .contact-info p a {
   color: #1a1a1a; }
+
+.flaticon-global:before{
+  font-size: 2.5em;
+}
+
+.flaticon-github-image:before{
+  font-size: 2.5em;
+}
 
 .contact-section .box {
   width: 100%;

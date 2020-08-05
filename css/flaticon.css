@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 22/01/2020 23:30
+  	Creation date: 04/07/2020 15:58
   	*/
 
 @font-face {
@@ -30,13 +30,5 @@ font-style: normal;
 margin-left: 20px;
 }
 
-[class="flaticon-github-image"]:before,
-[class="flaticon-github-image"]:after {   
-  font-family: Flaticon;
-        font-size: 30px;
-font-style: normal;
-margin-left: 20px;
-
-}
-
 .flaticon-github-image:before { content: "\f100"; }
+.flaticon-global:before { content: "\f101"; }
